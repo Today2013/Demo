@@ -14,6 +14,7 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -34,6 +35,8 @@
     
     //将开始点和结束点连接在一起，上面的颜色的变化是根据其变化的  而开始之前的颜色都是colors中的第一个颜色值
     
+}
+- (IBAction)loadButtonclicked:(id)sender {
 }
 
 - (void)didReceiveMemoryWarning {
